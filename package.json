@@ -1,0 +1,14 @@
+{
+  "name": "hapi-server",
+  "version": "1.0.0",
+  "description": "cafe finder",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tom",
+  "license": "ISC",
+  "dependencies": {
+    "hapi": "^16.5.2"
+  }
+}
