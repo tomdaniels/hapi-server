@@ -15,8 +15,7 @@ server.route({
     method: 'GET',
     path:'/hello',
     handler: function (request, reply) {
-
-        return reply('<h1>hello world</h1>');
+        return reply('<h1>hello</h1>');
     }
 });
 
@@ -35,8 +34,7 @@ function locationServicesData() {
     return response.json();
   }).then(function(data) {
     console.log('Received Data');
-    console.log(data);
-  }).catch(function(error) {
+    return data;
     console.error('Fetch Failed with error:');
     console.error(error);
   });
